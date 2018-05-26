@@ -13,5 +13,8 @@ module.exports = {
     ],
     plugins: [
         { src: "~plugins/ga.js", ssr: false}
-    ]
+    ],
+    router: {
+        base: "/~t-amano/"
+    }
 }
