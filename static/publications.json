@@ -1,0 +1,230 @@
+{
+    "jornals" : [
+        {
+            "authors": [ "天野 辰哉", "梶田 宗吾", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "クラウドソーシングと3次元電波伝搬シミュレーションの併用による効率的なWi-Fi電波データベース構築",
+            "etitle": "",
+            "publishedin": "情報処理学会論文誌(IPSJ Jornal)",
+            "volume": 59,
+            "issue": 2,
+            "pages": "450-461",
+            "datetime": " 2018-02",
+            "type": "jornal",
+            "peer_reviewed": true
+        }
+    ],
+    "international_conferences": [
+        {
+            "authors": [ "Shugo Kajita", "Hiroki Iwasaki", "Tatsuya Amano", "Hirozumi Yamaguchi", "Teruo Higashino", "Mineo Takai" ],
+            "title": "Deployment Support of Temporary Wi-Fi Access Points in Urban Environment",
+            "publishedin": "the 19th ACM International Workshop on Mobile Computing Systems and Applicatoins (HotMobile 2018)",
+            "pages": null,
+            "location": "USA",
+            "datetime": "2018-02",
+            "type": "international_conference_poster",
+            "peer_reviewed": true
+        },
+        {
+            "authors": [ "Tatsuya Amano", "Shugo Kajita", "Hirozumi Yamaguchi", "Teruo Higashino", "Mineo Takai" ],
+            "title": "A Crowdsourcing and Simulation based Approach for Fast and Accurate Wi-Fi Radio Map Construction in Urban Environment",
+            "publishedin": "IFIP Networking 2017 (Networking 2017)",
+            "pages": "1-9",
+            "location": "Sweden",
+            "datetime": "2017-06",
+            "type": "international_conference_proc",
+            "peer_reviewed": true
+        },
+        {
+            "authors": [ "Shugo Kajita", "Tatsuya Amano", "Hirozumi Yamaguchi", "Teruo Higashino", "Mineo Takai" ],
+            "title": "A New Architecture of Wi-Fi APs with Prediction-based Autonomous Channel Migration Function",
+            "publishedin": "the 18th ACM International Workshop on Mobile Computing Systems and Applicatoins (HotMobile 2017)",
+            "pages": null,
+            "location": "USA",
+            "datetime": "2017-02",
+            "type": "international_conference_poster",
+            "peer_reviewed": true
+        },
+        {
+            "authors": [ "Tatsuya Amano", "Shugo Kajita", "Hirozumi Yamaguchi", "Teruo Higashino", "Mineo Takai" ],
+            "title": "Construction and Visualization of 3D Wi-Fi Radio Map in Urban Environment",
+            "publishedin": "the 18th ACM International Workshop on Mobile Computing Systems and Applicatoins (HotMobile 2017)",
+            "pages": null,
+            "location": "USA",
+            "datetime": "2017-02",
+            "type": "international_conference_demo",
+            "peer_reviewed": true
+        },
+        {
+            "authors": [ "Shugo Kajita", "Tatsuya Amano", "Hirozumi Yamaguchi", "Teruo Higashino", "Mineo Takai" ],
+            "title": "Wi-Fi Channel Selection Based on Urban Interference Measurement",
+            "publishedin": "the 13th International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous 2016)",
+            "pages": "143-150",
+            "location": "Japan",
+            "datetime": "2016-11",
+            "type": "international_conference_proc",
+            "peer_reviewed": true
+        }
+    ],
+    "domestic_conferences": [
+        {
+            "authors": [ "梶田 宗吾", "岩崎 博生", "天野 辰哉", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "通信混雑環境における都市Wi-Fiアクセスポイントの追加設置支援",
+            "publishedin": "情報処理学会 第80回全国大会",
+            "pages": null,
+            "location": "東京",
+            "datetime": "2018-03",
+            "type": "domestic_conference_non_reviewed" ,
+            "peer_reviewed": false
+        },
+        {
+            "authors": [ "天野 辰哉", "梶田 宗吾", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "都市Wi-Fiアクセスポイントの3次元位置データベース自動構築とその活用",
+            "publishedin": "情報処理学会 第80回全国大会",
+            "pages": null,
+            "location": "東京",
+            "datetime": "2018-03",
+            "type": "domestic_conference_non_reviewed" ,
+            "peer_reviewed": false
+        },
+        {
+            "authors": [ "岩崎 博生", "天野 辰哉", "梶田 宗吾", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "都市部における公衆Wi-Fiのキャパシティ評価のためのシナリオ構築",
+            "publishedin": "モバイルネットワークとアプリケーション(MoNA)研究会",
+            "pages": "329-334",
+            "location": "東京",
+            "datetime": "2018-02",
+            "type": "domestic_conference_non_reviewed" ,
+            "peer_reviewed": false
+        },
+        {
+            "authors": [ "梶田 宗吾", "天野 辰哉", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "Scenargieシミュレーションに基づく通信品質予測機能を用いた自律 Wi-Fi チャネル制御手法",
+            "publishedin": "Scenargie Workshop 2017",
+            "pages": null,
+            "location": "東京",
+            "datetime": "2017-10",
+            "type": "domestic_conference_non_reviewed_poster",
+            "peer_reviewed": false
+        },
+        {
+            "authors": [ "天野 辰哉", "梶田 宗吾", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "クラウドソーシングとScenargie電波伝搬シミュレーションに基づくWi-Fi電波強度推定システム",
+            "publishedin": "Scenargie Workshop 2017",
+            "pages": null,
+            "location": "東京",
+            "datetime": "2017-10",
+            "type": "domestic_conference_non_reviewed_poster" ,
+            "peer_reviewed": false
+        },
+        {
+            "authors": [ "梶田 宗吾", "天野 辰哉", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "通信品質予測に基づく自律 Wi-Fi チャネル制御手法",
+            "publishedin": "マルチメディア,分散,協調とモバイル(DICOMO 2017)シンポジウム",
+            "pages": "1565-1574",
+            "location": "北海道",
+            "datetime": "2017-06",
+            "type": "domestic_conference_reviewed",
+            "peer_reviewed": true
+        },
+        {
+            "authors": [ "天野 辰哉", "梶田 宗吾", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "クラウドソーシングと3次元地理空間情報に基づくWi-Fiデータベースの構築と活用",
+            "publishedin": "マルチメディア,分散,協調とモバイル(DICOMO 2017)シンポジウム",
+            "pages": "727-737",
+            "location": "北海道",
+            "datetime": "2017-06",
+            "type": "domestic_conference_reviewed",
+            "peer_reviewed": true
+        },
+        {
+            "authors": [ "梶田 宗吾", "天野 辰哉", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "Wi-Fi過密環境における自律チャネル制御へ向けた通信品質予測手法",
+            "publishedin": "情報処理学会 第79回全国大会",
+            "pages": null,
+            "location": "名古屋",
+            "datetime": "2017-03",
+            "type": "domestic_conference_non_reviewed",
+            "peer_reviewed": false 
+        },
+        {
+            "authors": [ "天野 辰哉", "梶田 宗吾", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "都市環境における3次元空間上のWi-Fiデータベースの構築",
+            "publishedin": "情報処理学会 第79回全国大会",
+            "pages": null,
+            "location": "名古屋",
+            "datetime": "2017-03",
+            "type": "domestic_conference_non_reviewed",
+            "peer_reviewed": false
+        },
+        {
+            "authors": [ "梶田 宗吾", "天野 辰哉", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "Wi-Fiチャネル選択手法のAP分布調査に基づくチャネル占有モデルによるシミュレーション評価",
+            "publishedin": "Scenargie Workshop 2016",
+            "pages": null,
+            "location": "東京",
+            "datetime": "2016-10",
+            "type": "domestic_conference_non_reviewed_poster",
+            "peer_reviewed": false
+        },
+        {
+            "authors": [ "天野 辰哉", "梶田 宗吾", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "Scenargieを用いた都市環境におけるWi-Fi電波強度推定システムの構築",
+            "publishedin": "Scenargie Workshop 2016",
+            "pages": null,
+            "location": "東京",
+            "datetime": "2016-10",
+            "type": "domestic_conference_non_reviewed_poster" ,
+            "peer_reviewed": false
+        },
+        {
+            "authors": [ "梶田 宗吾", "天野 辰哉", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "AP 分布調査に基づく Wi-Fi チャネル占有モデルによるチャネル選択手法の評価",
+            "publishedin": "第24回マルチメディア通信と分散処理(DPS)ワークショップ",
+            "pages": null,
+            "location": "秋田",
+            "datetime": "2016-10",
+            "type": "domestic_conference_non_reviewed_poster",
+            "peer_reviewed": true
+        },
+        {
+            "authors": [ "天野 辰哉", "梶田 宗吾", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "3次元空間上の電波強度推定・可視化システム",
+            "publishedin": "第24回マルチメディア通信と分散処理(DPS)ワークショップ",
+            "pages": null,
+            "location": "秋田",
+            "datetime": "2016-10",
+            "type": "domestic_conference_reviewed_demo" ,
+            "peer_reviewed": true
+        },
+        {
+            "authors": [ "梶田 宗吾", "天野 辰哉", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "都市部におけるWi-Fi過密環境の分析と機械学習に基づくチャネル選択手法の検討",
+            "publishedin": "電子情報通信学会ソサイエティ大会",
+            "pages": null,
+            "location": "北海道",
+            "datetime": "2016-09",
+            "type": "domestic_conference_non_reviewed" ,
+            "peer_reviewed": false
+        },
+        {
+            "authors": [ "梶田 宗吾", "天野 辰哉", "山口 弘純", "東野 輝夫", "高井 峰生" ],
+            "title": "都市実環境観測データに基づくWi-Fi通信性能予測手法の評価",
+            "publishedin": "マルチメディア,分散,協調とモバイル(DICOMO 2016)シンポジウム",
+            "pages": "99-104",
+            "location": "三重",
+            "datetime": "2016-07-06",
+            "type": "domestic_conference_reviewed",
+            "peer_reviewed": true
+        },
+        {
+            "authors": [ "天野 辰哉", "梶田 宗吾", "山口 弘純", "東野 輝夫", "浦山 博史", "高井 峰生" ],
+            "title": "参加型ビーコンセンシングによる3次元空間上のWi-Fiデータベース構築と可視化",
+            "publishedin": "第79回モバイルコンピューティングとパーベイシブシステム(MBL)研究会",
+            "pages": null,
+            "location": "沖縄",
+            "datetime": "2016-05-26",
+            "type": "domestic_conference_non_reviewed",
+            "peer_reviewed": false
+        }
+    ]
+}
