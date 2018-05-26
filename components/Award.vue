@@ -3,7 +3,7 @@
         <h1 class="section-header">Awards / 受賞</h1>
         <ul>
             <li v-for="award in sortedAwardItems" v-bind:key="award.text">
-                {{award.datetime}} : 
+                <time :datetime="award.datetime">{{award.datetimeStr}}</time> : 
                 "<a :href="award.link">{{award.text}}</a>",
                 {{award.event}}, 
                 {{award.awardinfo}}

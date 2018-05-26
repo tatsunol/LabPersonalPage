@@ -15,10 +15,10 @@
 
     <article class="main">
       <!-- <research class="section-component"/> -->
-      <biography class="section-component"/>
-      <publication class="section-component"/>
-      <award class="section-component"/>
-      <other class="section-component"/>
+      <biography class="section-component" id="biography"/>
+      <publication class="section-component" id="publication"/>
+      <award class="section-component" id="award"/>
+      <other class="section-component" id="other"/>
     </article>
 
   </div>
@@ -74,20 +74,52 @@ a:link, a:visited {
   color: #444;
   margin-bottom: 8px;
 }
+/*
+.section-header {
+  font-size: 2.3rem;
+  line-height: 1.2;
+  color: #444;
+  margin-bottom: 8px;
+}
+.section-header::before {
+  content: '# ';
+}
+*/
 
 .wrapper {
-  margin: 32px auto;
-  width: 960px;
+  position: relative;
+  margin: 0 auto;
 }
 
-.header {
-  position: fixed;
-  float: left;
-  width: 256px;
+@media screen and (min-width: 960px)
+{
+  body {
+    padding: 48px 20px; 
+    margin: 0px;
+  }
+  .wrapper {
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    width: 916px;
+  }
+
+  .header {
+    position: fixed;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 208px;
+  }
+
+  .main {
+    float: right;
+    width: 672px;
+    padding: 0;
+    margin: 0;
+  }
 }
 
-.main {
-  float: right;
-  width: 704px;
-}
+
+
 </style>
