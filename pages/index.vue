@@ -51,11 +51,34 @@ html {
 
 body {
   color: #444;
-  font-family: -apple-system,BlinkMacSystemFont,Roboto,'Droid Sans','Helvetica Neue','ヒラギノ角ゴ ProN W3',Hiragino Kaku Gothic ProN,Arial,'メイリオ',Meiryo,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont,Roboto,
+              'Helvetica Neue',
+              'Droid Sans',
+              'ヒラギノ角ゴ ProN W3',
+              Hiragino Kaku Gothic ProN,
+              Arial,
+              YuGothicM,
+              YuGothic,
+              'メイリオ',
+              Meiryo,
+              sans-serif;
   font-size: 1.4rem;
   line-height: 1.6;
   padding: 16px;
   background-color: #e5e5e633;
+}
+
+@font-face {
+  font-family: YuGothicM;
+  font-weight: normal;
+  src: local('YuGothic-Medium'),  /* Mediumを明示的に指定 */
+       local('Yu Gothic Medium'), /* Chrome用 */
+       local('YuGothic-Regular'); /* Windows8.1ではMediumがないのでRegularを指定 */
+}
+@font-face {
+  font-family: YuGothicM;
+  font-weight: bold;
+  src: local('YoGothic-Bold'), /* Boldはそのまま */
 }
 
 a:link, a:visited {
