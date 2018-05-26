@@ -41,12 +41,14 @@ export default {
 ul {
     list-style: none;
 }
+/*
 .address ul {
     list-style: disc;
     list-style-position: inside;
     padding-left: 1em;
     text-indent: -1em;
 }
+*/
 br {
     display: none;
 }

@@ -33,10 +33,19 @@ export default {
 
 <style scoped>
 ul {
-    list-style-position: inside;
-    list-style-type: disc;
+    list-style-type: none;
 }
 li {
-    margin: 2px 0;
+    margin-bottom: 8px;
+}
+
+@media screen and (min-width: 640px) {
+    ul {
+        list-style-position: inside;
+        list-style-type: disc;
+    }
+    li {
+        margin: 2px 0;
+    }
 }
 </style>

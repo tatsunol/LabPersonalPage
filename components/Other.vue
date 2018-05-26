@@ -39,6 +39,8 @@ export default {
 ul {
     list-style-position: inside;
     list-style-type: disc;
+    padding-left: 1em;
+    text-indent: -1em;
 }
 li {
     margin: 2px 0;
