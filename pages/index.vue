@@ -116,7 +116,7 @@ a:visited {
     float: right;
     width: 672px;
     padding: 0;
-    margin: 0;
+    margin: 0px 0px 0px 0px;
   }
 }
 </style>

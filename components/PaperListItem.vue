@@ -1,12 +1,16 @@
 <template>
   <span>
+    <span class="scheduled" v-if="paper.scheduled">[発表予定]&nbsp;</span>
     <span class="presentation_type" v-if="type">{{type}}</span>
     <span class="author" v-for="author in authorsBeforeMe" v-bind:key="author">{{author}},&nbsp;</span>
     <span class="author me">{{authorMe}}</span>
     <span>,&nbsp;</span>
     <span class="author" v-for="author in authorsAfterMe" v-bind:key="author">{{author}},&nbsp;</span>
     <span class="papertitle">"{{paper.title}}",&nbsp;</span>
-    <span class="in_proceedings_of" v-if="paper.presentation_type=='oral'">{{in_proc_of}}&nbsp;</span>
+    <span
+      class="in_proc_of"
+      v-if="paper.presentation_type=='oral' && paper.international"
+    >{{in_proc_of}}&nbsp;</span>
     <span class="info">{{paper.publishedin}},&nbsp;</span>
     <span class="volume" v-if="'volume' in paper" paper.volume !="null">Vol.{{paper.volume}},&nbsp;</span>
     <span class="issue" v-if="'issue' in paper" paper.issue !="null">No.{{paper.issue}},&nbsp;</span>
@@ -47,7 +51,6 @@ export default {
   props: ["paper"],
   data: function() {
     return {
-      isInternational: false,
       authorsBeforeMe: [],
       authorMe: "",
       authorsAfterMe: [],
@@ -69,8 +72,6 @@ export default {
       this.type = "";
     }
 
-    this.isInternational = this.paper.international;
-
     // authors
     var isAuthorsBeforeMe = true;
     for (var i in this.paper.authors) {
@@ -91,7 +92,7 @@ export default {
     // datetime
     this.datetimeStr = converDatetimeToString(
       this.paper.datetime,
-      this.isInternational
+      this.paper.international
     );
   }
 };
@@ -109,6 +110,10 @@ export default {
 .me {
   font-weight: bold;
   text-decoration: underline;
+}
+
+span {
+  word-break: break-all;
 }
 /*
 .me::after {

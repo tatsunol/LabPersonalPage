@@ -10,16 +10,53 @@
             ],
             "title": "クラウドソーシングと3次元電波伝搬シミュレーションの併用による効率的なWi-Fi電波データベース構築",
             "etitle": "",
-            "publishedin": "情報処理学会論文誌(IPSJ Jornal)",
+            "publishedin": "情報処理学会論文誌",
             "volume": 59,
             "issue": 2,
             "pages": "450-461",
             "datetime": " 2018-02",
             "type": "jornal",
-            "peer_reviewed": true
+            "peer_reviewed": true,
+            "scheduled": false
         }
     ],
     "international_conferences": [
+        {
+            "authors": [
+                "Tatsuya Amano",
+                "Shugo Kajita",
+                "Hirozumi Yamaguchi",
+                "Teruo Higashino",
+                "Mineo Takai"
+            ],
+            "title": "Smartphone Applications Testbed Using Virtual Reality",
+            "publishedin": "15th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous 2018)",
+            "pages": "422-431",
+            "location": "USA",
+            "datetime": "2018-11",
+            "international": true,
+            "presentation_type": "oral",
+            "scheduled": false,
+            "peer_reviewed": true
+        },
+        {
+            "authors": [
+                "Tatsuya Amano",
+                "Shugo Kajita",
+                "Hirozumi Yamaguchi",
+                "Teruo Higashino",
+                "Mineo Takai"
+            ],
+            "title": "VRing: Bring Your Mobile App to Virtual Space",
+            "publishedin": "the ACM International Joint Conference and 2018 International Symposium on Pervasive and Ubiquitous Computing and Wearable Computers (UbiComp 2018)",
+            "pages": "327-330",
+            "location": "Singapore",
+            "datetime": "2018-10",
+            "international": true,
+            "presentation_type": "demo",
+            "scheduled": false,
+            "peer_reviewed": true
+        },
         {
             "authors": [
                 "Shugo Kajita",
@@ -36,6 +73,7 @@
             "datetime": "2018-02",
             "international": true,
             "presentation_type": "poster",
+            "scheduled": false,
             "peer_reviewed": true
         },
         {
@@ -53,6 +91,7 @@
             "datetime": "2017-06",
             "international": true,
             "presentation_type": "oral",
+            "scheduled": false,
             "peer_reviewed": true
         },
         {
@@ -70,6 +109,7 @@
             "datetime": "2017-02",
             "international": true,
             "presentation_type": "poster",
+            "scheduled": false,
             "peer_reviewed": true
         },
         {
@@ -87,6 +127,7 @@
             "datetime": "2017-02",
             "international": true,
             "presentation_type": "demo",
+            "scheduled": false,
             "peer_reviewed": true
         },
         {
@@ -104,10 +145,49 @@
             "datetime": "2016-11",
             "international": true,
             "presentation_type": "oral",
+            "scheduled": false,
             "peer_reviewed": true
         }
     ],
     "domestic_conferences": [
+        {
+            "authors": [
+                "阿倉 佑樹",
+                "天野 辰哉",
+                "廣森 聡仁",
+                "山口 弘純",
+                "内山 彰",
+                "東野 輝夫",
+                "新井 圭太"
+            ],
+            "title": "高齢者のユーザビリティを考慮したセミデマンドバス向け低コスト予約システムの開発と運用",
+            "publishedin": "情報処理学会 第81回全国大会",
+            "pages": null,
+            "location": "福岡",
+            "datetime": "2019-01",
+            "international": false,
+            "presentation_type": "oral",
+            "scheduled": true,
+            "peer_reviewed": false
+        },
+        {
+            "authors": [
+                "天野 辰哉",
+                "梶田 宗吾",
+                "山口 弘純",
+                "東野 輝夫",
+                "高井 峰生"
+            ],
+            "title": "VRによるスマートフォンアプリ検証システムの構築",
+            "publishedin": "情報処理学会 第81回全国大会",
+            "pages": null,
+            "location": "福岡",
+            "datetime": "2019-01",
+            "international": false,
+            "presentation_type": "oral",
+            "scheduled": true,
+            "peer_reviewed": false
+        },
         {
             "authors": [
                 "天野 辰哉",
@@ -123,6 +203,7 @@
             "datetime": "2018-07",
             "international": false,
             "presentation_type": "oral",
+            "scheduled": false,
             "peer_reviewed": true
         },
         {
@@ -141,6 +222,7 @@
             "datetime": "2018-03",
             "international": false,
             "presentation_type": "oral",
+            "scheduled": false,
             "peer_reviewed": false
         },
         {
@@ -158,6 +240,7 @@
             "datetime": "2018-03",
             "international": false,
             "presentation_type": "oral",
+            "scheduled": false,
             "peer_reviewed": false
         },
         {
@@ -176,6 +259,7 @@
             "datetime": "2018-02",
             "international": false,
             "presentation_type": "oral",
+            "scheduled": false,
             "peer_reviewed": false
         },
         {
@@ -193,6 +277,7 @@
             "datetime": "2017-10",
             "international": false,
             "presentation_type": "poster",
+            "scheduled": false,
             "peer_reviewed": false
         },
         {
@@ -210,6 +295,7 @@
             "datetime": "2017-10",
             "international": false,
             "presentation_type": "poster",
+            "scheduled": false,
             "peer_reviewed": false
         },
         {
@@ -227,6 +313,7 @@
             "datetime": "2017-06",
             "international": false,
             "presentation_type": "oral",
+            "scheduled": false,
             "peer_reviewed": true
         },
         {
@@ -244,6 +331,7 @@
             "datetime": "2017-06",
             "international": false,
             "presentation_type": "oral",
+            "scheduled": false,
             "peer_reviewed": true
         },
         {
@@ -261,6 +349,7 @@
             "datetime": "2017-03",
             "international": false,
             "presentation_type": "oral",
+            "scheduled": false,
             "peer_reviewed": false
         },
         {
@@ -278,6 +367,7 @@
             "datetime": "2017-03",
             "international": false,
             "presentation_type": "oral",
+            "scheduled": false,
             "peer_reviewed": false
         },
         {
@@ -295,6 +385,7 @@
             "datetime": "2016-10",
             "international": false,
             "presentation_type": "poster",
+            "scheduled": false,
             "peer_reviewed": false
         },
         {
@@ -312,6 +403,7 @@
             "datetime": "2016-10",
             "international": false,
             "presentation_type": "poster",
+            "scheduled": false,
             "peer_reviewed": false
         },
         {
@@ -329,6 +421,7 @@
             "datetime": "2016-10",
             "international": false,
             "presentation_type": "poster",
+            "scheduled": false,
             "peer_reviewed": true
         },
         {
@@ -346,6 +439,7 @@
             "datetime": "2016-10",
             "international": false,
             "presentation_type": "demo",
+            "scheduled": false,
             "peer_reviewed": true
         },
         {
@@ -363,6 +457,7 @@
             "datetime": "2016-09",
             "international": false,
             "presentation_type": "oral",
+            "scheduled": false,
             "peer_reviewed": false
         },
         {
@@ -380,6 +475,7 @@
             "datetime": "2016-07-06",
             "international": false,
             "presentation_type": "oral",
+            "scheduled": false,
             "peer_reviewed": true
         },
         {
@@ -398,6 +494,7 @@
             "datetime": "2016-05-26",
             "international": false,
             "presentation_type": "oral",
+            "scheduled": false,
             "peer_reviewed": false
         }
     ]

@@ -16,11 +16,7 @@
               <br>情報ネットワーク学専攻
               <br>博士後期課程１年
             </li>
-            <li>
-              <a href="https://www-higashi.ist.osaka-u.ac.jp">モバイルコンピューティング講座
-                <br>東野研究室
-              </a> 所属
-            </li>
+            <li></li>
             <li>日本学術振興会特別研究員 (DC1)</li>
           </ul>
         </section>
@@ -36,6 +32,15 @@
         <li>Email: t-amano [at] ist.osaka-u.ac.jp</li>
       </ul>
     </section>
+    <section class="link">
+      <h2>Links</h2>
+      <ul>
+        <li>
+          <a href="https://www-higashi.ist.osaka-u.ac.jp">モバイルコンピューティング講座 東野研究室</a>
+        </li>
+      </ul>
+    </section>
+
     <!--
     <div class="language-nav">
       <ul>
@@ -85,6 +90,14 @@ br {
   line-height: 1.2;
 }
 .address {
+  margin-bottom: 8px;
+}
+
+h2 {
+  margin-bottom: -4px;
+}
+
+.link {
   margin-bottom: 16px;
 }
 

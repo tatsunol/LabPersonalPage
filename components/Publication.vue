@@ -18,7 +18,7 @@
       </ul>
     </section>
     <section>
-      <h2 class="publication-header">International Conferences (Demo/Poster) / 国際会議（ポスター・デモ）</h2>
+      <h2 class="publication-header">International Conferences (Demo/Poster) / 国際会議（ポスター・デモ等）</h2>
       <ul>
         <li v-for="paper in sortedInternationalConfsPosterDemo" :key="paper.title">
           <paper-list-item :paper="paper"/>
