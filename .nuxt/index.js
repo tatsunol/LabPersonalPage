@@ -12,7 +12,7 @@ import { setContext, getLocation, getRouteData } from './utils'
 
 
 /* Plugins */
-import nuxt_plugin_ga_fb0a2534 from 'nuxt_plugin_ga_fb0a2534' // Source: ..\\plugins\\ga.js (ssr: false)
+import nuxt_plugin_ga_fb0a2534 from 'nuxt_plugin_ga_fb0a2534' // Source: ../plugins/ga.js (ssr: false)
 
 
 // Component: <no-ssr>

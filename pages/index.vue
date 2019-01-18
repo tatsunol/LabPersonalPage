@@ -1,18 +1,14 @@
 <template>
   <div class="wrapper">
-
-    <div class="header">
-      <profile class="profile"/>
-      <!--
+    <sidebar class="sidebar"/>
+    <!--
       <nav class="language-nav">
           <ul>
               <li>Japanese</li>
               <li>English</li>
           </ul>
       </nav>
-      -->
-    </div>
-
+    -->
     <article class="main">
       <!-- <research class="section-component"/> -->
       <biography class="section-component" id="biography"/>
@@ -20,28 +16,27 @@
       <award class="section-component" id="award"/>
       <other class="section-component" id="other"/>
     </article>
-
   </div>
 </template>
 
 <script>
-import Research from '~/components/Research.vue'
-import Profile from '~/components/Profile.vue'
-import Biography from '~/components/Biography.vue'
-import Publication from '~/components/Publication.vue'
-import Award from '~/components/Award.vue'
-import Other from '~/components/Other.vue'
+import Research from "~/components/Research.vue";
+import Sidebar from "~/components/Sidebar.vue";
+import Biography from "~/components/Biography.vue";
+import Publication from "~/components/Publication.vue";
+import Award from "~/components/Award.vue";
+import Other from "~/components/Other.vue";
 
 export default {
   components: {
     Research,
-    Profile,
+    Sidebar,
     Biography,
     Publication,
     Award,
     Other
   }
-}
+};
 </script>
 
 <style>
@@ -51,17 +46,9 @@ html {
 
 body {
   color: #444;
-  font-family: -apple-system, BlinkMacSystemFont,Roboto,
-              'Helvetica Neue',
-              'Droid Sans',
-              'ヒラギノ角ゴ ProN W3',
-              Hiragino Kaku Gothic ProN,
-              Arial,
-              YuGothicM,
-              YuGothic,
-              'メイリオ',
-              Meiryo,
-              sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue",
+    "Droid Sans", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial,
+    YuGothicM, YuGothic, "メイリオ", Meiryo, sans-serif;
   font-size: 1.4rem;
   line-height: 1.6;
   padding: 16px;
@@ -71,17 +58,18 @@ body {
 @font-face {
   font-family: YuGothicM;
   font-weight: normal;
-  src: local('YuGothic-Medium'),  /* Mediumを明示的に指定 */
-       local('Yu Gothic Medium'), /* Chrome用 */
-       local('YuGothic-Regular'); /* Windows8.1ではMediumがないのでRegularを指定 */
+  src: local("YuGothic-Medium"),
+    /* Mediumを明示的に指定 */ local("Yu Gothic Medium"),
+    /* Chrome用 */ local("YuGothic-Regular"); /* Windows8.1ではMediumがないのでRegularを指定 */
 }
 @font-face {
   font-family: YuGothicM;
   font-weight: bold;
-  src: local('YoGothic-Bold'), /* Boldはそのまま */
+  src: local("YoGothic-Bold"); /* Boldはそのまま */
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
   color: #d03c56;
   text-decoration: none;
 }
@@ -97,29 +85,18 @@ a:link, a:visited {
   color: #444;
   margin-bottom: 8px;
 }
-/*
-.section-header {
-  font-size: 2.3rem;
-  line-height: 1.2;
-  color: #444;
-  margin-bottom: 8px;
-}
-.section-header::before {
-  content: '# ';
-}
-*/
 
 .wrapper {
   position: relative;
   margin: 0 auto;
 }
 
-@media screen and (min-width: 960px)
-{
+@media screen and (min-width: 960px) {
   body {
-    padding: 48px 20px; 
+    padding: 48px 20px;
     margin: 0px;
   }
+
   .wrapper {
     position: relative;
     padding: 0;
@@ -127,7 +104,7 @@ a:link, a:visited {
     width: 916px;
   }
 
-  .header {
+  .sidebar {
     position: fixed;
     float: left;
     padding: 0;
@@ -142,7 +119,4 @@ a:link, a:visited {
     margin: 0;
   }
 }
-
-
-
 </style>
