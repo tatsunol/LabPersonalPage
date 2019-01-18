@@ -1,17 +1,17 @@
 <template>
   <span>
     <span class="presentation_type" v-if="type">{{type}}</span>
-    <span class="author" v-for="author in authorsBeforeMe" v-bind:key="author">{{author}}</span>
+    <span class="author" v-for="author in authorsBeforeMe" v-bind:key="author">{{author}},&nbsp;</span>
     <span class="author me">{{authorMe}}</span>
-    <span class="author"></span>
-    <span class="author" v-for="author in authorsAfterMe" v-bind:key="author">{{author}}</span>
-    <span class="papertitle">"{{paper.title}}"</span>
-    <span class="in_proceedings_of" v-if="paper.presentation_type=='oral'">{{in_proc_of}}</span>
-    <span class="info">{{paper.publishedin}}</span>
-    <span class="volume" v-if="'volume' in paper" paper.volume !="null">Vol.{{paper.volume}}</span>
-    <span class="issue" v-if="'issue' in paper" paper.issue !="null">No.{{paper.issue}}</span>
-    <span class="page" v-if="'pages' in paper && paper.pages != null">pp.{{paper.pages}}</span>
-    <span class="location" v-if="'location' in paper">{{paper.location}}</span>
+    <span>,&nbsp;</span>
+    <span class="author" v-for="author in authorsAfterMe" v-bind:key="author">{{author}},&nbsp;</span>
+    <span class="papertitle">"{{paper.title}}",&nbsp;</span>
+    <span class="in_proceedings_of" v-if="paper.presentation_type=='oral'">{{in_proc_of}}&nbsp;</span>
+    <span class="info">{{paper.publishedin}},&nbsp;</span>
+    <span class="volume" v-if="'volume' in paper" paper.volume !="null">Vol.{{paper.volume}},&nbsp;</span>
+    <span class="issue" v-if="'issue' in paper" paper.issue !="null">No.{{paper.issue}},&nbsp;</span>
+    <span class="page" v-if="'pages' in paper && paper.pages != null">pp.{{paper.pages}},&nbsp;</span>
+    <span class="location" v-if="'location' in paper">{{paper.location}},&nbsp;</span>
     <time class="time" :datetime="paper.datetime">{{datetimeStr}}</time>
     <span>.</span>
   </span>
@@ -54,7 +54,7 @@ export default {
       datetimeStr: "",
       type: "",
       page: "",
-      in_proc_of: "in Proceedings of "
+      in_proc_of: "in Proceedings of"
     };
   },
   created: function() {
@@ -98,16 +98,19 @@ export default {
 </script>
 
 <style>
+/*
 .author::after {
   content: ", ";
   font-weight: normal;
   text-decoration: none;
 }
+*/
 
 .me {
   font-weight: bold;
   text-decoration: underline;
 }
+/*
 .me::after {
   content: "";
 }
@@ -130,6 +133,7 @@ export default {
 .location::after {
   content: ", ";
 }
+*/
 .presentation_type {
   font-weight: bold;
 }

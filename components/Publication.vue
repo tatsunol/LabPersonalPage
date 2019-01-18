@@ -10,7 +10,7 @@
       </ul>
     </section>
     <section>
-      <h2 class="publication-header">International Conferences (Oral Presentation) / 国際会議（口頭発表）</h2>
+      <h2 class="publication-header">International Conferences / 国際会議（口頭発表）</h2>
       <ul>
         <li v-for="paper in sortedInternationalConfs" :key="paper.title">
           <paper-list-item :paper="paper"/>
