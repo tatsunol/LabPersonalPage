@@ -14,7 +14,7 @@
           <ul>
             <li>大阪大学 大学院情報科学研究科
               <br>情報ネットワーク学専攻
-              <br>博士後期課程１年
+              <br>博士後期課程{{grade}}年
             </li>
             <li></li>
             <li>日本学術振興会特別研究員 (DC1)</li>
@@ -27,7 +27,7 @@
       <ul>
         <li>〒565-0871
           <br>大阪府吹田市山田丘1−5
-          <br>情報系総合研究棟A棟502
+          <br>情報科学研究科A棟502
         </li>
         <li>Email: t-amano [at] ist.osaka-u.ac.jp</li>
       </ul>
@@ -57,8 +57,16 @@ import others from "static/others.json";
 export default {
   data: function() {
     return {
-      otherItems: others
+      otherItems: others,
+      grade: 0,
     };
+  },
+  created : function() {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = now.getMonth();
+    const japaneseYear = (month >= 4 && month <= 12) ? year : year-1;
+    this.grade = japaneseYear - 2018 + 1;
   }
 };
 </script>
