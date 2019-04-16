@@ -64,7 +64,7 @@ export default {
   created : function() {
     const now = new Date();
     const year = now.getFullYear();
-    const month = now.getMonth();
+    const month = now.getMonth() + 1;
     const japaneseYear = (month >= 4 && month <= 12) ? year : year-1;
     this.grade = japaneseYear - 2018 + 1;
   }

@@ -147,6 +147,24 @@
             "presentation_type": "oral",
             "scheduled": false,
             "peer_reviewed": true
+        },
+        {
+            "authors": [
+                "Tatsuya Amano",
+                "Shugo Kajita",
+                "Hirozumi Yamaguchi",
+                "Teruo Higashino",
+                "Mineo Takai"
+            ],
+            "title": "Outdoor Wi-Fi RSSI Map Construction Based on Crowdsourcing and Simulation",
+            "publishedin": "the 2019 IEEE International Conference on Pervasive Computing and Communications (PerCom 2019) Ph.D Forum",
+            "pages": null,
+            "location": "Kyoto",
+            "datetime": "2019-03",
+            "international": true,
+            "presentation_type": "poster",
+            "scheduled": false,
+            "peer_reviewed": true
         }
     ],
     "domestic_conferences": [
@@ -167,7 +185,7 @@
             "datetime": "2019-01",
             "international": false,
             "presentation_type": "oral",
-            "scheduled": true,
+            "scheduled": false,
             "peer_reviewed": false
         },
         {
@@ -185,7 +203,7 @@
             "datetime": "2019-01",
             "international": false,
             "presentation_type": "oral",
-            "scheduled": true,
+            "scheduled": false,
             "peer_reviewed": false
         },
         {
