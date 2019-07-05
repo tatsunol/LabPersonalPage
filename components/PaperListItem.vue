@@ -16,8 +16,7 @@
     <span class="issue" v-if="'issue' in paper" paper.issue !="null">No.{{paper.issue}},&nbsp;</span>
     <span class="page" v-if="'pages' in paper && paper.pages != null">pp.{{paper.pages}},&nbsp;</span>
     <span class="location" v-if="'location' in paper">{{paper.location}},&nbsp;</span>
-    <time class="time" :datetime="paper.datetime">{{datetimeStr}}</time>
-    <span>.</span>
+    <time class="time" :datetime="paper.datetime">{{datetimeStr}}</time><span>.</span>
   </span>
 </template>
 

@@ -1,5 +1,23 @@
 [
     {
+        "datetime": "2019-07",
+        "datetimeStr": "2019.07",
+        "authors": ["天野 辰哉"],
+        "text": "クラウドセンシングによる屋内Wi-Fi APの3次元位置推定手法",
+        "event": "マルチメディア、分散、協調とモバイル(DICOMO2019) シンポジウム",
+        "awardinfo": "最優秀プレゼンテーション賞",
+        "link": "http://dicomo.org/commendation/"
+    },
+    {
+        "datetime": "2019-01",
+        "datetimeStr": "2019.01",
+        "authors": ["天野 辰哉"],
+        "text": "国際会議調査報告: UbiComp2018およびMobiQuitous2018",
+        "event": "電子情報通信学会 モバイルネットワークとアプリケーション(MoNA)研究会",
+        "awardinfo": "2018年度下期優秀発表",
+        "link": "https://www.ieice.org/~mona/ja/awards/"
+    },
+    {
         "datetime": "2018-07",
         "datetimeStr": "2018.07",
         "authors": ["天野 辰哉", "梶田 宗吾", "山口 弘純", "東野 輝夫", "高井 峰生"],
@@ -15,6 +33,15 @@
         "text": "深層学習を用いた論文表題の評価・生成システム",
         "event": "マルチメディア、分散、協調とモバイル(DICOMO2017) シンポジウム",
         "awardinfo": "ナイトテクニカルセッション 2位",
+        "link": "http://www.dicomo.org/2017/2017/commendation/index.html"
+    },
+    {
+        "datetime": "2017-06",
+        "datetimeStr": "2017.06",
+        "authors": ["天野 辰哉", "梶田 宗吾", "山口 弘純", "東野 輝夫", "高井 峰生"],
+        "text": "通信品質予測に基づく自律 Wi-Fi チャネル制御手法",
+        "event": "マルチメディア、分散、協調とモバイル(DICOMO2017) シンポジウム",
+        "awardinfo": "優秀論文賞 (第2著者)",
         "link": "http://www.dicomo.org/2017/2017/commendation/index.html"
     },
     {

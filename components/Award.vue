@@ -4,9 +4,9 @@
         <ul>
             <li v-for="award in sortedAwardItems" v-bind:key="award.text">
                 <time :datetime="award.datetime">{{award.datetimeStr}}</time> : 
-                "<a :href="award.link">{{award.text}}</a>",
+                "{{award.text}}",
                 {{award.event}}, 
-                {{award.awardinfo}}
+                <a :href="award.link">{{award.awardinfo}}</a>
             </li>
         </ul>
     </section>
@@ -55,6 +55,9 @@ export default {
 </script>
 
 <style scoped>
+a {
+    font-weight: bold;
+}
 ul {
     list-style-type: disc;
     list-style-position: inside;

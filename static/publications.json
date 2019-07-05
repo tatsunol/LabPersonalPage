@@ -170,6 +170,23 @@
     "domestic_conferences": [
         {
             "authors": [
+                "天野 辰哉",
+                "山口 弘純",
+                "東野 輝夫",
+                "高井 峰生"
+            ],
+            "title": "クラウドセンシングによる屋内Wi-Fi APの3次元位置推定手法",
+            "publishedin": "マルチメディア,分散,協調とモバイル(DICOMO 2019)シンポジウム",
+            "pages": "1637-1647",
+            "location": "福島",
+            "datetime": "2019-07",
+            "international": false,
+            "presentation_type": "oral",
+            "scheduled": false,
+            "peer_reviewed": true
+        },
+        {
+            "authors": [
                 "阿倉 佑樹",
                 "天野 辰哉",
                 "廣森 聡仁",

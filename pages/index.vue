@@ -109,12 +109,12 @@ a:visited {
     float: left;
     padding: 0;
     margin: 0;
-    width: 208px;
+    width: 200px;
   }
 
   .main {
     float: right;
-    width: 672px;
+    width: 687px;
     padding: 0;
     margin: 0px 0px 0px 0px;
   }
