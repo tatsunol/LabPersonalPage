@@ -12,9 +12,14 @@ module.exports = {
         "static/reset.css",
     ],
     plugins: [
-        { src: "~plugins/ga.js", ssr: false}
+        { src: "~plugins/ga.js", ssr: false }
     ],
     router: {
         base: "/~t-amano/"
+    },
+    generate: {
+        minify: {
+            collapseWhitespace: false
+        }
     }
 }

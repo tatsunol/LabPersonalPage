@@ -5,7 +5,7 @@
       <h2 class="publication-header">Jornals / 論文誌</h2>
       <ul>
         <li v-for="paper in sortedJornals" :key="paper.title">
-          <paper-list-item :paper="paper"/>
+          <paper-list-item :paper="paper" />
         </li>
       </ul>
     </section>
@@ -13,7 +13,7 @@
       <h2 class="publication-header">International Conferences / 国際会議（口頭発表）</h2>
       <ul>
         <li v-for="paper in sortedInternationalConfs" :key="paper.title">
-          <paper-list-item :paper="paper"/>
+          <paper-list-item :paper="paper" />
         </li>
       </ul>
     </section>
@@ -21,7 +21,7 @@
       <h2 class="publication-header">International Conferences (Demo/Poster) / 国際会議（ポスター・デモ等）</h2>
       <ul>
         <li v-for="paper in sortedInternationalConfsPosterDemo" :key="paper.title">
-          <paper-list-item :paper="paper"/>
+          <paper-list-item :paper="paper" />
         </li>
       </ul>
     </section>
@@ -29,7 +29,7 @@
       <h2 class="publication-header">Domestic Conferences / 国内研究会等</h2>
       <ul>
         <li v-for="paper in sortedDomesticConfs" :key="paper.title">
-          <paper-list-item :paper="paper"/>
+          <paper-list-item :paper="paper" />
         </li>
       </ul>
     </section>
