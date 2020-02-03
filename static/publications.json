@@ -2,6 +2,25 @@
     "jornals": [
         {
             "authors": [
+                "天野 辰哉",
+                "梶田 宗吾",
+                "山口 弘純",
+                "東野 輝夫",
+                "高井 峰生"
+            ],
+            "title": "VRを用いたWi-Fi過密環境におけるスマートフォンアプリ検証手法",
+            "etitle": "",
+            "publishedin": "情報処理学会論文誌",
+            "volume": 61,
+            "issue": 2,
+            "pages": "**-**",
+            "datetime": " 2020-02",
+            "type": "jornal",
+            "peer_reviewed": true,
+            "scheduled": false
+        },
+        {
+            "authors": [
                 "梶田 宗吾",
                 "天野 辰哉",
                 "山口 弘純",
@@ -59,7 +78,7 @@
             "datetime": "2019-12",
             "international": true,
             "presentation_type": "demo",
-            "scheduled": true,
+            "scheduled": false,
             "peer_reviewed": true
         },
         {
@@ -191,11 +210,7 @@
         },
         {
             "authors": [
-                "Tatsuya Amano",
-                "Shugo Kajita",
-                "Hirozumi Yamaguchi",
-                "Teruo Higashino",
-                "Mineo Takai"
+                "Tatsuya Amano"
             ],
             "title": "Outdoor Wi-Fi RSSI Map Construction Based on Crowdsourcing and Simulation",
             "publishedin": "the 2019 IEEE International Conference on Pervasive Computing and Communications (PerCom 2019) Ph.D Forum",
@@ -205,6 +220,20 @@
             "international": true,
             "presentation_type": "poster",
             "scheduled": false,
+            "peer_reviewed": true
+        },
+        {
+            "authors": [
+                "Tatsuya Amano"
+            ],
+            "title": "3-D Localization of Indoor Access Points via Opportunistic Crowdsensing",
+            "publishedin": "the 2020 IEEE International Conference on Pervasive Computing and Communications (PerCom 2020) Ph.D Forum",
+            "pages": null,
+            "location": "Austion, USA",
+            "datetime": "2020-03",
+            "international": true,
+            "presentation_type": "poster",
+            "scheduled": true,
             "peer_reviewed": true
         }
     ],
@@ -228,7 +257,7 @@
             "datetime": "2019-11",
             "international": false,
             "presentation_type": "demo",
-            "scheduled": true,
+            "scheduled": false,
             "peer_reviewed": false
         },
         {
