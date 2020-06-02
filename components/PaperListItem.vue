@@ -12,8 +12,8 @@
       v-if="paper.presentation_type=='oral' && paper.international"
     >{{in_proc_of}}&nbsp;</span>
     <span class="info">{{paper.publishedin}},&nbsp;</span>
-    <span class="volume" v-if="'volume' in paper" paper.volume !="null">Vol.{{paper.volume}},&nbsp;</span>
-    <span class="issue" v-if="'issue' in paper" paper.issue !="null">No.{{paper.issue}},&nbsp;</span>
+    <span class="volume" v-if="'volume' in paper && paper.volume !=null">Vol.{{paper.volume}},&nbsp;</span>
+    <span class="issue" v-if="'issue' in paper && paper.issue !=null">No.{{paper.issue}},&nbsp;</span>
     <span class="page" v-if="'pages' in paper && paper.pages != null">pp.{{paper.pages}},&nbsp;</span>
     <span class="location" v-if="'location' in paper">{{paper.location}},&nbsp;</span>
     <time class="time" :datetime="paper.datetime">{{datetimeStr}}</time>
@@ -99,14 +99,6 @@ export default {
 </script>
 
 <style>
-/*
-.author::after {
-  content: ", ";
-  font-weight: normal;
-  text-decoration: none;
-}
-*/
-
 .me {
   font-weight: bold;
   text-decoration: underline;
@@ -115,30 +107,6 @@ export default {
 span {
   word-break: break-all;
 }
-/*
-.me::after {
-  content: "";
-}
-
-.papertitle::after {
-  content: ", ";
-}
-.info::after {
-  content: ", ";
-}
-.page::after {
-  content: ", ";
-}
-.volume::after {
-  content: ", ";
-}
-.issue::after {
-  content: ", ";
-}
-.location::after {
-  content: ", ";
-}
-*/
 .presentation_type {
   font-weight: bold;
 }

@@ -1,25 +1,23 @@
 <template>
-  <div class="wrapper">
-    <sidebar class="sidebar"/>
-    <!--
-      <nav class="language-nav">
-          <ul>
-              <li>Japanese</li>
-              <li>English</li>
-          </ul>
-      </nav>
-    -->
-    <article class="main">
-      <!-- <research class="section-component"/> -->
-      <biography class="section-component" id="biography"/>
-      <publication class="section-component" id="publication"/>
-      <award class="section-component" id="award"/>
-      <other class="section-component" id="other"/>
-    </article>
+  <div class="container">
+    <div class="columns">
+      <article class="column is-four-fifths">
+        <!-- <research class="section-component"/> -->
+        <!-- <Profile class="section" id="profile" /> -->
+        <biography class="section" id="biography" />
+        <publication class="section" id="publication" />
+        <award class="section" id="award" />
+        <other class="section" id="other" />
+      </article>
+      <aside class="column">
+        <sidebar class="section" />
+      </aside>
+    </div>
   </div>
 </template>
 
 <script>
+import Profile from "~/components/Profile.vue";
 import Research from "~/components/Research.vue";
 import Sidebar from "~/components/Sidebar.vue";
 import Biography from "~/components/Biography.vue";
@@ -29,94 +27,38 @@ import Other from "~/components/Other.vue";
 
 export default {
   components: {
-    Research,
-    Sidebar,
+    Profile,
     Biography,
     Publication,
+    Sidebar,
     Award,
     Other
   }
 };
 </script>
 
-<style>
-html {
-  font-size: 62.5%;
-}
+<style lang="scss">
+$section-padding: 1rem 1rem;
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulmaswatch/cosmo/_variables.scss";
+@import "../node_modules/bulmaswatch/cosmo/_overrides.scss";
 
-body {
-  color: #444;
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue",
-    "Droid Sans", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial,
-    YuGothicM, YuGothic, "メイリオ", Meiryo, sans-serif;
-  font-size: 1.4rem;
-  line-height: 1.6;
-  padding: 16px;
-  background-color: #e5e5e633;
+.subsection {
+  margin-bottom: 36px;
 }
-
-@font-face {
-  font-family: YuGothicM;
-  font-weight: normal;
-  src: local("YuGothic-Medium"),
-    /* Mediumを明示的に指定 */ local("Yu Gothic Medium"),
-    /* Chrome用 */ local("YuGothic-Regular"); /* Windows8.1ではMediumがないのでRegularを指定 */
+ul {
+  list-style-type: none;
 }
-@font-face {
-  font-family: YuGothicM;
+ol {
+  list-style-position: inside;
+}
+li {
+  line-height: 1.6rem;
+  margin-bottom: 4px;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+a {
   font-weight: bold;
-  src: local("YoGothic-Bold"); /* Boldはそのまま */
-}
-
-a:link,
-a:visited {
-  color: #d03c56;
-  text-decoration: none;
-}
-
-.section-component {
-  margin-bottom: 24px;
-}
-.section-header {
-  font-size: 2.3rem;
-  border-left: 5px solid #444;
-  padding-left: 8px;
-  line-height: 1.2;
-  color: #444;
-  margin-bottom: 8px;
-}
-
-.wrapper {
-  position: relative;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 960px) {
-  body {
-    padding: 48px 20px;
-    margin: 0px;
-  }
-
-  .wrapper {
-    position: relative;
-    padding: 0;
-    margin: 0 auto;
-    width: 916px;
-  }
-
-  .sidebar {
-    position: fixed;
-    float: left;
-    padding: 0;
-    margin: 0;
-    width: 200px;
-  }
-
-  .main {
-    float: right;
-    width: 687px;
-    padding: 0;
-    margin: 0px 0px 0px 0px;
-  }
 }
 </style>

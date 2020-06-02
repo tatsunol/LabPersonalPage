@@ -1,37 +1,37 @@
 <template>
   <section>
-    <h1 class="section-header">Publications / 業績</h1>
-    <section>
-      <h2 class="publication-header">Jornals / 論文誌</h2>
-      <ul>
+    <h1 class="title">Publications / 業績</h1>
+    <section class="subsection container">
+      <h2 class="subtitle">Jornals / 論文誌</h2>
+      <ol>
         <li v-for="paper in sortedJornals" :key="paper.title">
           <paper-list-item :paper="paper" />
         </li>
-      </ul>
+      </ol>
     </section>
-    <section>
-      <h2 class="publication-header">International Conferences / 国際会議（口頭発表）</h2>
-      <ul>
+    <section class="subsection container">
+      <h2 class="subtitle">International Conferences / 国際会議（口頭発表）</h2>
+      <ol>
         <li v-for="paper in sortedInternationalConfs" :key="paper.title">
           <paper-list-item :paper="paper" />
         </li>
-      </ul>
+      </ol>
     </section>
-    <section>
-      <h2 class="publication-header">International Conferences (Demo/Poster) / 国際会議（ポスター・デモ等）</h2>
-      <ul>
+    <section class="subsection container">
+      <h2 class="subtitle">International Conferences (Demo/Poster) / 国際会議（ポスター・デモ等）</h2>
+      <ol>
         <li v-for="paper in sortedInternationalConfsPosterDemo" :key="paper.title">
           <paper-list-item :paper="paper" />
         </li>
-      </ul>
+      </ol>
     </section>
-    <section>
-      <h2 class="publication-header">Domestic Conferences / 国内研究会等</h2>
-      <ul>
+    <section class="usbsection container">
+      <h2 class="subtitle">Domestic Conferences / 国内研究会等</h2>
+      <ol>
         <li v-for="paper in sortedDomesticConfs" :key="paper.title">
           <paper-list-item :paper="paper" />
         </li>
-      </ul>
+      </ol>
     </section>
   </section>
 </template>
@@ -89,18 +89,5 @@ export default {
 };
 </script>
 
-<style scoped>
-li {
-  list-style-position: inside;
-  list-style-type: decimal;
-  margin-bottom: 8px;
-
-  padding-left: 1em;
-  text-indent: -1em;
-}
-
-.publication-header {
-  font-size: 1.7rem;
-  margin: 10px 0;
-}
+<style>
 </style>

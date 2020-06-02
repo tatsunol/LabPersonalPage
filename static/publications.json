@@ -13,7 +13,7 @@
             "publishedin": "情報処理学会論文誌",
             "volume": 61,
             "issue": 2,
-            "pages": "**-**",
+            "pages": "440-453",
             "datetime": " 2020-02",
             "type": "jornal",
             "peer_reviewed": true,
@@ -229,15 +229,37 @@
             "title": "3-D Localization of Indoor Access Points via Opportunistic Crowdsensing",
             "publishedin": "the 2020 IEEE International Conference on Pervasive Computing and Communications (PerCom 2020) Ph.D Forum",
             "pages": null,
-            "location": "Austion, USA",
+            "location": "Austion, USA (Online)",
             "datetime": "2020-03",
             "international": true,
             "presentation_type": "poster",
-            "scheduled": true,
+            "scheduled": false,
             "peer_reviewed": true
         }
     ],
     "domestic_conferences": [
+        {
+            "authors": [
+                "阿倉 佑樹",
+                "Choochotkaew Sunyanan",
+                "天野 辰哉",
+                "山口 弘純",
+                "廣森 聡仁",
+                "東野 輝夫",
+                "西村 友佑",
+                "諏訪 晃",
+                "長村 吉富",
+                "竹嶋 進",
+                "髙井 峰生"
+            ],
+            "title": "深層学習によるリンク交通量からOD交通量の推定手法",
+            "publishedin": "研究報告高度交通システムとスマートコミュニティ（ITS）",
+            "pages": "2020-ITS-80(5),1-7",
+            "location": "北海道（オンライン）",
+            "presentation_type": "oral",
+            "scheduled": false,
+            "peer_reviewed": false
+        },
         {
             "authors": [
                 "天野 辰哉",
