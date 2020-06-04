@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1 class="title">Biography / 略歴</h1>
+    <h1 class="title section-title">Biography / 略歴</h1>
     <ul>
       <li
         class="has-text-weight-bold"
@@ -39,7 +39,3 @@ export default {
   }
 };
 </script>
-
-
-<style>
-</style>

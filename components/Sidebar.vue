@@ -1,12 +1,13 @@
 <template>
   <section>
-    <div class="profile-wrapper">
-      <img class="image" src="~static/profile.jpg" />
+    <div>
+      <figure class="image is-128x128">
+        <img class="is-rounded" src="~static/profile.jpg" />
+      </figure>
       <div class="name-affiliation">
-        <h1 class="name">
+        <h1 class="name is-size-5">
           <ruby>
             <rb>天野 辰哉</rb>
-            <rt>アマノ タツヤ</rt>
           </ruby>
           <br />Tatsuya AMANO
         </h1>
@@ -36,6 +37,7 @@
       </ul>
     </section>
     <section class="link">
+      <p>略歴 / 業績 / 受賞 / その他</p>
       <h2>Links</h2>
       <ul>
         <li>
@@ -74,5 +76,11 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+}
 </style>

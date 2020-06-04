@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1 class="title">Publications / 業績</h1>
+    <h1 class="title section-title">Publications / 業績</h1>
     <section class="subsection container">
       <h2 class="subtitle">Jornals / 論文誌</h2>
       <ol>
@@ -25,7 +25,7 @@
         </li>
       </ol>
     </section>
-    <section class="usbsection container">
+    <section class="subsection container">
       <h2 class="subtitle">Domestic Conferences / 国内研究会等</h2>
       <ol>
         <li v-for="paper in sortedDomesticConfs" :key="paper.title">
@@ -88,6 +88,3 @@ export default {
   }
 };
 </script>
-
-<style>
-</style>

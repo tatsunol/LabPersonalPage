@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1 class="title">Awards / 受賞</h1>
+    <h1 class="title section-title">Awards / 受賞</h1>
     <ul>
       <li v-for="award in sortedAwardItems" v-bind:key="award.text">
         <time :datetime="award.datetime">{{award.datetimeStr}}</time>
@@ -65,6 +65,3 @@ export default {
   created: function() {}
 };
 </script>
-
-<style scoped>
-</style>

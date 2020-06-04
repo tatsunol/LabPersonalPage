@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1 class="title">Others / その他</h1>
+    <h1 class="title section-title">Others / その他</h1>
     <ul>
       <li v-for="otherItem in sortedOtherItems" v-bind:key="otherItem.text">
         <time :datetime="otherItem.datetime">{{otherItem.datetimeStr}}</time> :
@@ -34,6 +34,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-</style>

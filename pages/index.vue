@@ -1,7 +1,10 @@
 <template>
   <div class="container">
-    <div class="columns">
-      <article class="column is-four-fifths">
+    <div class="columns reverse-row-order is-centered">
+      <aside class="column is-3">
+        <sidebar class="section" />
+      </aside>
+      <article class="column">
         <!-- <research class="section-component"/> -->
         <!-- <Profile class="section" id="profile" /> -->
         <biography class="section" id="biography" />
@@ -9,10 +12,10 @@
         <award class="section" id="award" />
         <other class="section" id="other" />
       </article>
-      <aside class="column">
-        <sidebar class="section" />
-      </aside>
     </div>
+    <footer class="footer has-background-white">
+      <div class="content has-text-grey-light">Copyright © Tatsuya Amano</div>
+    </footer>
   </div>
 </template>
 
@@ -39,26 +42,43 @@ export default {
 
 <style lang="scss">
 $section-padding: 1rem 1rem;
+$size-3: 1.5rem;
+$block-spacing: 1rem;
+$body-font-size: 0.9rem;
 @import "../node_modules/bulma/bulma.sass";
-@import "../node_modules/bulmaswatch/cosmo/_variables.scss";
-@import "../node_modules/bulmaswatch/cosmo/_overrides.scss";
+
+.section-title {
+  border-left: 8px solid #444;
+  padding-left: 8px;
+}
 
 .subsection {
-  margin-bottom: 36px;
+  margin-bottom: 24px;
 }
+
 ul {
-  list-style-type: none;
+  list-style-type: square;
+  list-style-position: inside;
 }
 ol {
   list-style-position: inside;
 }
 li {
-  line-height: 1.6rem;
-  margin-bottom: 4px;
+  line-height: 1.5rem;
+  margin-bottom: 0.25rem;
   padding-left: 1em;
   text-indent: -1em;
 }
 a {
   font-weight: bold;
+}
+
+@media screen and (min-width: 767px) {
+  .reverse-row-order {
+    flex-direction: row-reverse;
+  }
+}
+</style>
+
 }
 </style>
