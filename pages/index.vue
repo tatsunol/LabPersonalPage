@@ -1,5 +1,7 @@
 <template>
   <div class="container">
+    <navbar>
+    </navbar>
     <div class="columns reverse-row-order is-centered">
       <aside class="column is-3">
         <sidebar class="section" />
@@ -20,6 +22,7 @@
 </template>
 
 <script>
+import Navbar from "~/components/Navbar.vue";
 import Profile from "~/components/Profile.vue";
 import Research from "~/components/Research.vue";
 import Sidebar from "~/components/Sidebar.vue";
@@ -35,6 +38,7 @@ export default {
     Publication,
     Sidebar,
     Award,
+    Navbar,
     Other
   }
 };
