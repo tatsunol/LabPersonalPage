@@ -33,6 +33,14 @@
         </li>
       </ol>
     </section>
+    <section class="subsection container">
+      <h2 class="subtitle">Thesis / 学位論文</h2>
+      <ol>
+        <li v-for="paper in sortedThesis" :key="paper.title">
+          <paper-list-item :paper="paper" />
+        </li>
+      </ol>
+    </section>
   </section>
 </template>
 
@@ -54,7 +62,8 @@ export default {
       jornals: publications.jornals,
       internationalConfs: [],
       internationalConfsPosterDemo: [],
-      domesticConfs: publications.domestic_conferences
+      domesticConfs: publications.domestic_conferences,
+      thesis: publications.thesis
     };
   },
   created: function() {
@@ -81,6 +90,9 @@ export default {
     },
     sortedDomesticConfs: function() {
       return sortByDate(this.domesticConfs.slice());
+    },
+    sortedThesis: function() {
+      return sortByDate(this.thesis.slice());
     }
   },
   components: {

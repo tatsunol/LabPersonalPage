@@ -23,7 +23,6 @@
 
 <script>
 import Navbar from "~/components/Navbar.vue";
-import Profile from "~/components/Profile.vue";
 import Research from "~/components/Research.vue";
 import Sidebar from "~/components/Sidebar.vue";
 import Biography from "~/components/Biography.vue";
@@ -33,14 +32,14 @@ import Other from "~/components/Other.vue";
 
 export default {
   components: {
-    Profile,
     Biography,
     Publication,
     Sidebar,
     Award,
     Navbar,
     Other
-  }
+  },
+
 };
 </script>
 
@@ -81,8 +80,5 @@ a {
   .reverse-row-order {
     flex-direction: row-reverse;
   }
-}
-</style>
-
 }
 </style>

@@ -240,6 +240,38 @@
     "domestic_conferences": [
         {
             "authors": [
+                "天野 辰哉",
+                "山口 弘純",
+                "東野 輝夫"
+            ],
+            "title": "コネクテッド・ヒューマンによる空間状況把握プラットフォーム",
+            "publishedin": "マルチメディア,分散,協調とモバイル(DICOMO 2020)シンポジウム",
+            "pages": "892-899",
+            "location": "高知（オンライン）",
+            "datetime": "2020-06-25",
+            "international": false,
+            "presentation_type": "oral",
+            "scheduled": true,
+            "peer_reviewed": true
+        },
+        {
+            "authors": [
+                "天野 辰哉",
+                "山口 弘純",
+                "東野 輝夫"
+            ],
+            "title": "AP選択支援のための3次元Wi-Fi位置データベース構築と評価",
+            "publishedin": "通信方式研究会（CS）信学技報, vol. 120, no. 75, CS2020-11",
+            "pages": "45-48",
+            "location": "山梨（オンライン）",
+            "datetime": "2020-06-26",
+            "international": false,
+            "presentation_type": "oral",
+            "scheduled": true,
+            "peer_reviewed": true
+        },
+        {
+            "authors": [
                 "阿倉 佑樹",
                 "Choochotkaew Sunyanan",
                 "天野 辰哉",
@@ -254,6 +286,7 @@
             ],
             "title": "深層学習によるリンク交通量からOD交通量の推定手法",
             "publishedin": "研究報告高度交通システムとスマートコミュニティ（ITS）",
+            "datetime": "2020-01",
             "pages": "2020-ITS-80(5),1-7",
             "location": "北海道（オンライン）",
             "presentation_type": "oral",
@@ -663,6 +696,33 @@
             "presentation_type": "oral",
             "scheduled": false,
             "peer_reviewed": false
+        }
+    ],
+    "thesis": [
+        {
+            "authors": ["天野 辰哉"],
+            "title": "無線LAN観測データと地理情報を用いた基地局位置推定手法の提案",
+            "publishedin": "特別研究報告",
+            "pages": null,
+            "location": "大阪大学基礎工学部情報科学科",
+            "datetime": "2016-02-16",
+            "international": false,
+            "presentation_type": "oral",
+            "scheduled": false,
+            "peer_reviewed": true
+        },
+        {
+            "authors": ["Tatsuya Amano"],
+            "title": "Wi-Fi RSSI Map Construction Based on Crowdsourcing and Simulations",
+            "publishedin": "Master’s thesis",
+            "pages": null,
+            "location": "Graduate School of Information Science and Technology, Osaka University",
+            "datetime": "2018-02",
+            "international": false,
+            "presentation_type": "oral",
+            "scheduled": false,
+            "peer_reviewed": true
+ 
         }
     ]
 }
