@@ -2,8 +2,8 @@
 <div>
   <div class="">
     <div class="">
-      <figure class="image is-128x128">
-        <img class="is-rounded" src="~static/profile.jpg" />
+      <figure class="image">
+        <img class="is-rounded" src="~static/profile4.png" />
       </figure>
     </div>
 
@@ -67,12 +67,21 @@ export default {
 </script>
 
 <style scoped>
+figure {
+  max-width: 256px;
+}
+img {
+  margin: 0px;
+  padding: 16px;
+}
+/*
 div {
   margin-left: 0;
   margin-right: 0;
   padding-left:0px;
   padding-right:0px;
 }
+*/
 ul {
   padding-left: 1em;
   list-style: square;
