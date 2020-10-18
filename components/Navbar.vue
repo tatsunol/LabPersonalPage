@@ -1,18 +1,21 @@
 <template>
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div id="navbarTop" class="navbar-menu">
-    <div class="navbar-start is-size-6">
+    <div class="navbar-end is-size-6">
       <a class="navbar-item" href='#biography'>
-        略歴
+        Biography
+      </a>
+      <a class="navbar-item" href='#research'>
+        Research 
       </a>
       <a class="navbar-item" href="#publication">
-        業績
+        Publications
       </a>
       <a class="navbar-item" href="#award">
-        受賞
+        Awards
       </a>
       <a class="navbar-item" href="#other">
-        その他
+        Others
       </a>
     </div>
   </div>

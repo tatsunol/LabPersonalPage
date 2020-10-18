@@ -18,7 +18,7 @@
       </ol>
     </section>
     <section class="subsection container">
-      <h2 class="subtitle">International Conferences (Demo/Poster) / 国際会議（ポスター・デモ等）</h2>
+      <h2 class="subtitle">International Conferences（Demo/Poster）/ 国際会議（ポスター・デモ等）</h2>
       <ol>
         <li v-for="paper in sortedInternationalConfsPosterDemo" :key="paper.title">
           <paper-list-item :paper="paper" />
@@ -26,7 +26,7 @@
       </ol>
     </section>
     <section class="subsection container">
-      <h2 class="subtitle">Domestic Conferences / 国内研究会等</h2>
+      <h2 class="subtitle">Japanese Domestic Conferences / 国内研究会等</h2>
       <ol>
         <li v-for="paper in sortedDomesticConfs" :key="paper.title">
           <paper-list-item :paper="paper" />

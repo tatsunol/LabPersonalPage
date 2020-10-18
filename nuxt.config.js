@@ -11,6 +11,17 @@ export default {
       { name: 'keywords', content: 'Tatsuya Amano, 天野辰哉' },
       { hid: 'description', name: 'description', content: 'Tatsuya Amano, Osaka University Ph.D. Course Student' }
     ],
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap'
+
+      }
+    ]
   },
   /*
   ** Customize the progress-bar color

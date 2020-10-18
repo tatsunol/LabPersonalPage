@@ -4,13 +4,19 @@
     <ul>
       <li v-for="award in sortedAwardItems" v-bind:key="award.text">
         <time :datetime="award.datetime">{{award.datetimeStr}}</time>
+        <a :href="award.link">{{award.awardinfo}}</a>, {{award.event}} <br/>
+        "{{award.text}}"
+      </li>
+ 
+      <!--
+      <li v-for="award in sortedAwardItems" v-bind:key="award.text">
+        <time :datetime="award.datetime">{{award.datetimeStr}}</time>
         :
         "{{award.text}}",
         {{award.event}},
-        <a
-          :href="award.link"
-        >{{award.awardinfo}}</a>
+        <a :href="award.link">{{award.awardinfo}}</a>
       </li>
+      -->
     </ul>
   </section>
 </template>

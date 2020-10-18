@@ -2,6 +2,24 @@
     "jornals": [
         {
             "authors": [
+                "Tatsuya Amano",
+                "Hirozumi Yamaguchi",
+                "Teruo Higashino"
+            ],
+            "title": "Connected AR for Combating COVID-19",
+            "etitle": "",
+            "publishedin": "IEEE Internet of Things Magazine (to appear)",
+            "volume": null, 
+            "issue": null,
+            "page": "(to appear)",
+            "datetime": "2020-09",
+            "type": "magazine",
+            "peer_reviewed": true,
+            "international": true,
+            "scheduled": false
+        },
+        {
+            "authors": [
                 "天野 辰哉",
                 "梶田 宗吾",
                 "山口 弘純",
@@ -251,7 +269,7 @@
             "datetime": "2020-06-25",
             "international": false,
             "presentation_type": "oral",
-            "scheduled": true,
+            "scheduled": false,
             "peer_reviewed": true
         },
         {
@@ -267,7 +285,7 @@
             "datetime": "2020-06-26",
             "international": false,
             "presentation_type": "oral",
-            "scheduled": true,
+            "scheduled": false,
             "peer_reviewed": true
         },
         {
@@ -718,7 +736,7 @@
             "pages": null,
             "location": "Graduate School of Information Science and Technology, Osaka University",
             "datetime": "2018-02",
-            "international": false,
+            "international": true,
             "presentation_type": "oral",
             "scheduled": false,
             "peer_reviewed": true
