@@ -1,24 +1,53 @@
 <template>
-<span>
-      <!--
+  <span>
+    <!--
       <span class="scheduled" v-show="paper.scheduled">[to appear]&nbsp;</span>
       <span class="presentation_type" v-if="type">{{type}}</span>
       <br/>
       -->
-      <span class="author">{{author}}</span>
-      <span>:</span>
-      <br/>
-      <span class="papertitle has-text-weight-bold">{{paper.title}}</span>
-      <br />
-      <span class="in_proc_of" v-if="paper.presentation_type=='oral' && paper.international" >{{in_proc_of}}</span>
-      <span class="info">{{paper.publishedin}},&nbsp;</span>
-      <span class="volume" v-if="'volume' in paper && paper.volume !=null">Vol.{{paper.volume}},&nbsp;</span>
-      <span class="issue" v-if="'issue' in paper && paper.issue !=null">No.{{paper.issue}},&nbsp;</span>
-      <span class="page" v-if="'pages' in paper && paper.pages != null">pp.{{paper.pages}},&nbsp;</span>
-      <span class="location" v-if="'location' in paper">{{paper.location}},&nbsp;</span>
-      <time class="time" :datetime="paper.datetime">{{datetimeStr}}</time>
-      <span>.</span>
-</span>
+    <span class="author">{{ author }}</span>
+    <span>:</span>
+    <br />
+    <span class="papertitle has-text-weight-bold">{{ paper.title }}</span>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      v-if="paper.link"
+      v-bind:href="paper.link"
+    >
+      (LINK) <i class="fas fa-external-link-alt"></i>
+    </a>
+    <br />
+    <span
+      class="in_proc_of"
+      v-if="
+        paper.presentation_type != null &&
+        paper.presentation_type == 'oral' &&
+        paper.international
+      "
+      >{{ in_proc_of }}</span
+    >
+    <span class="info">{{ paper.publishedin }},&nbsp;</span>
+    <span class="volume" v-if="'volume' in paper && paper.volume != null"
+      >Vol.{{ paper.volume }},&nbsp;</span
+    >
+    <span class="issue" v-if="'issue' in paper && paper.issue != null"
+      >No.{{ paper.issue }},&nbsp;</span
+    >
+    <span class="page" v-if="'pages' in paper && paper.pages != null"
+      >pp.{{ paper.pages }},&nbsp;</span
+    >
+    <span class="location" v-if="'location' in paper"
+      >{{ paper.location }},&nbsp;</span
+    >
+    <time class="time" :datetime="paper.datetime">{{ datetimeStr }}</time>
+    <span>.</span>
+    <!--
+    <span class="other_info" v-if="'other_info' in paper">{{
+      paper.other_info
+    }}</span>
+    -->
+  </span>
   <!--
   <span>
     <span class="scheduled" v-show="paper.scheduled">[to appear]&nbsp;</span>
@@ -57,7 +86,7 @@ function converDatetimeToString(originalDatetime, isEnglish) {
     "September",
     "October",
     "November",
-    "December"
+    "December",
   ];
   var datetime = new Date(originalDatetime);
   var year = datetime.getFullYear();
@@ -71,7 +100,7 @@ function converDatetimeToString(originalDatetime, isEnglish) {
 
 export default {
   props: ["paper"],
-  data: function() {
+  data: function () {
     return {
       author: "",
       authors: [],
@@ -81,10 +110,10 @@ export default {
       datetimeStr: "",
       type: "",
       page: "",
-      in_proc_of: "in Proceedings of"
+      in_proc_of: "in Proceedings of",
     };
   },
-  created: function() {
+  created: function () {
     // poster or demo
     if (this.paper.presentation_type == "poster") {
       this.type = "[Poster] ";
@@ -103,12 +132,9 @@ export default {
     for (var i in this.paper.authors) {
       var author = this.paper.authors[i];
       if (i > 0) {
-        this.author += ", "
-
+        this.author += ", ";
       }
       this.author += author;
-
-
       if (
         author.indexOf("天野 辰哉") >= 0 ||
         author.toLowerCase().indexOf("tatsuya amano") >= 0
@@ -127,7 +153,7 @@ export default {
       this.paper.datetime,
       this.paper.international
     );
-  }
+  },
 };
 </script>
 
@@ -146,6 +172,8 @@ span {
 .listItem {
   display: inline;
 }
-
+.other_info {
+  font-weight: bold;
+}
 </style>
 

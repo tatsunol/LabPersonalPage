@@ -1,5 +1,11 @@
 [
     {
+        "text": "奨励講演 ゼロエフォートセンシングによる屋内Wi-Fi AP位置データベース構築手法 (第97回MBL研究会)",
+        "link": "https://mbl.ipsj.or.jp/program/2020/97th_presentation.html",
+        "datetime": "2020-11-25",
+        "datetimeStr": "2020.11"
+    },
+    {
         "text": "依頼講演 国際会議調査報告: UbiComp2018およびMobiQuitous2018 (MONA研究会) ",
         "link": "https://www.ieice.org/ken/paper/20190117a1jD/",
         "datetime": "2019-01",
@@ -23,13 +29,13 @@
         "datetimeStr": "2017.06"
     },
     {
-        "text": "enPiT-SecCap 演習 TA (Teaching Assistant)",
+        "text": "enPiT-SecCap演習 TA (Teaching Assistant)",
         "link": "https://www.seccap.jp/gs/index.html",
         "datetime": "2017-04",
-        "datetimeStr": "2017.04 ~ 2018.03"
+        "datetimeStr": "2017.04 - 2018.03"
     },
     {
-        "text": "分野・地域を越えた実践的情報教育協働ネットワーク(enPiT) セキュリティ分野 (SecCap) 修了",
+        "text": "分野・地域を越えた実践的情報教育協働ネットワーク(enPiT) セキュリティ分野 (SecCap) 修了 (SecCap 10)",
         "link": "https://www.seccap.jp/gs/index.html",
         "datetime": "2017-03",
         "datetimeStr": "2017.03"

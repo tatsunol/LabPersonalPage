@@ -11,6 +11,11 @@ export default {
       { name: 'keywords', content: 'Tatsuya Amano, 天野辰哉' },
       { hid: 'description', name: 'description', content: 'Tatsuya Amano, Osaka University Ph.D. Course Student' }
     ],
+    script: [
+      {
+        src: "https://kit.fontawesome.com/70f0b55891.js"
+      }
+    ],
     link: [
       {
         rel: 'stylesheet',
@@ -20,7 +25,7 @@ export default {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap'
 
-      }
+      },
     ]
   },
   /*
@@ -36,7 +41,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: "~plugins/ga.js", ssr:false}
+    { src: "~plugins/ga.js", ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -64,10 +69,10 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
     }
   },
   router: {
-        base: "/~t-amano/"
+    base: "/~t-amano/"
   }
 }

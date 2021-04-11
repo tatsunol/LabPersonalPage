@@ -1,30 +1,23 @@
 [
     {
-        "datetime": "2018-04-01",
-        "datetimeStr": "2018.04 - now",
-        "text": "大阪大学 大学院情報科学研究科 博士後期課程",
-        "etext": "Ph.D Student, Osaka University",
-        "ongoing": true
-    },
-    {
-        "datetime": "2018-04-02",
-        "datetimeStr": "2018.04 - now",
-        "text": "日本学術振興会 特別研究員 DC1",
-        "etext": "JSPS Research Fellow (DC1)",
-        "ongoing": true
-    },
-    {
-        "datetime": "2019-08",
-        "datetimeStr": "2019.08 - 2019.09",
-        "text": "KDDI総合研究所 インターンシップ",
-        "etext": "Internship, KDDI Research, Inc.",
+        "datetime": "2021-03-24",
+        "datetimeStr": "2021.04 - now",
+        "text": "大阪大学 大学院情報科学研究科 特任助教（常勤）",
+        "etext": "Specially Appointed Assistant Professor (full-time), Osaka University",
         "ongoing": false
     },
     {
-        "datetime": "2018-09",
-        "datetimeStr": "2018.09 - 2018.12",
-        "text": "Singapore Management Universitiy, Visiting Student Researcher",
-        "etext": "Research Internship, School of Information Systems, Singapore Management Universitiy",
+        "datetime": "2021-03-24",
+        "datetimeStr": "2021.03",
+        "text": "大阪大学 大学院情報科学研究科 博士（情報科学）",
+        "etext": "Ph.D, , Osaka University",
+        "ongoing": false
+    },
+    {
+        "datetime": "2018-04-02",
+        "datetimeStr": "2018.04",
+        "text": "日本学術振興会 特別研究員 DC1",
+        "etext": "JSPS Research Fellow (DC1)",
         "ongoing": false
     },
     {
@@ -32,20 +25,6 @@
         "datetimeStr": "2018.03",
         "text": "大阪大学 大学院情報科学研究科 博士前期課程 修了",
         "etext": "M.E., Osaka University",
-        "ongoing": false
-    },
-    {
-        "datetime": "2017-12",
-        "datetimeStr": "2017.12 - 2018.03",
-        "text": "大阪大学 社会経済研究所 RA (Research Assistant)",
-        "etext": "Research Assistant (RA), Osaka University",
-        "ongoing": false
-    },
-    {
-        "datetime": "2017-08",
-        "datetimeStr": "2017.08 - 09",
-        "text": "Space-Time Engineering インターンシップ",
-        "etext": "Internship, Space-Time Engineering",
         "ongoing": false
     },
     {

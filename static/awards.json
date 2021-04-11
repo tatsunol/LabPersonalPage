@@ -1,5 +1,16 @@
 [
     {
+        "datetime": "2020-03",
+        "datetimeStr": "2020.03",
+        "text": "クラウドセンシングによる屋内Wi-Fi APの3次元位置推定手法",
+        "event": "情報処理学会",
+        "authors": [
+            "天野 辰哉"
+        ],
+        "awardinfo": "山下記念研究賞",
+        "link": "https://www.ipsj.or.jp/award/yamasita2020-detail.html"
+    },
+    {
         "datetime": "2019-11",
         "datetimeStr": "2019.11",
         "authors": [

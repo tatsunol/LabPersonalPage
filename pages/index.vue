@@ -1,13 +1,25 @@
 <template>
   <div class="container">
+    <!--
     <navbar></navbar>
+    -->
 
     <article>
-      <profile class="section" />
+      <div class="columns is-centered">
+        <div class="column is-9">
+          <profile class="column section" />
+        </div>
+      </div>
+      <!--
       <biography class="section" id="biography" />
-      <publication class="section" id="publication" />
-      <award class="section" id="award" />
-      <other class="section" id="other" />
+      -->
+      <div class="columns is-centered">
+        <div class="column is-9">
+          <publication class="section" id="publication" />
+          <award class="section" id="award" />
+          <other class="section" id="other" />
+        </div>
+      </div>
     </article>
 
     <footer class="footer has-background-white">
@@ -62,7 +74,12 @@ $body-font-size: 0.95rem;
 }
 
 body {
-  font-family: "Roboto", "Noto Sans JP", Arial, sans-serif;
+  // font-family: "Roboto", "Noto Sans JP", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Droid Sans",
+    "Helvetica Neue", "Yu Gothic", "ヒラギノ角ゴ ProN W3",
+    "Hiragino Kaku Gothic ProN", Arial, メイリオ, Meiryo, sans-serif;
+  font-weight: 500;
+  padding: 16px;
 }
 
 ul {
@@ -72,7 +89,7 @@ ul {
 }
 ol {
   padding-left: 1.5em;
-//  list-style-position: inside;
+  //  list-style-position: inside;
 }
 
 li {

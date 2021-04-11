@@ -8,10 +8,11 @@
             ],
             "title": "Connected AR for Combating COVID-19",
             "etitle": "",
-            "publishedin": "IEEE Internet of Things Magazine (to appear)",
-            "volume": null, 
-            "issue": null,
-            "page": "(to appear)",
+            "link": "https://ieeexplore.ieee.org/document/9241471",
+            "publishedin": "IEEE Internet of Things Magazine",
+            "volume": 3,
+            "issue": 3,
+            "page": "46-51",
             "datetime": "2020-09",
             "type": "magazine",
             "peer_reviewed": true,
@@ -89,6 +90,7 @@
                 "Yasuhiko Hiehata",
                 "Takeshi Kitahara"
             ],
+            "link": "https://dl.acm.org/doi/10.1145/3366627.3368119",
             "title": "VR Application Framework for Collecting Smartphone Sensor Data in Risky Situations",
             "publishedin": "20th ACM/IFIP International Middleware Conference (Middleware 2019)",
             "pages": null,
@@ -108,6 +110,7 @@
                 "Mineo Takai"
             ],
             "title": "Smartphone Applications Testbed Using Virtual Reality",
+            "link": "https://dl.acm.org/doi/10.1145/3286978.3287028",
             "publishedin": "15th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (MobiQuitous 2018)",
             "pages": "422-431",
             "location": "USA",
@@ -170,7 +173,8 @@
             "international": true,
             "presentation_type": "oral",
             "scheduled": false,
-            "peer_reviewed": true
+            "peer_reviewed": true,
+            "other_info": "(Acceptance Rate 28% 43/150)"
         },
         {
             "authors": [
@@ -718,29 +722,30 @@
     ],
     "thesis": [
         {
-            "authors": ["天野 辰哉"],
+            "authors": [
+                "天野 辰哉"
+            ],
             "title": "無線LAN観測データと地理情報を用いた基地局位置推定手法の提案",
             "publishedin": "特別研究報告",
             "pages": null,
             "location": "大阪大学基礎工学部情報科学科",
             "datetime": "2016-02-16",
             "international": false,
-            "presentation_type": "oral",
             "scheduled": false,
             "peer_reviewed": true
         },
         {
-            "authors": ["Tatsuya Amano"],
+            "authors": [
+                "Tatsuya Amano"
+            ],
             "title": "Wi-Fi RSSI Map Construction Based on Crowdsourcing and Simulations",
             "publishedin": "Master’s thesis",
             "pages": null,
             "location": "Graduate School of Information Science and Technology, Osaka University",
             "datetime": "2018-02",
             "international": true,
-            "presentation_type": "oral",
             "scheduled": false,
             "peer_reviewed": true
- 
         }
     ]
 }

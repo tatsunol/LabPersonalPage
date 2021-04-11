@@ -2,7 +2,7 @@
   <section>
     <h1 class="title section-title">Publications / 業績</h1>
     <section class="subsection container">
-      <h2 class="subtitle">Jornals / 論文誌</h2>
+      <h2 class="subtitle">Journals・Magazines / 論文誌等</h2>
       <ol>
         <li v-for="paper in sortedJornals" :key="paper.title">
           <paper-list-item :paper="paper" />
@@ -10,7 +10,9 @@
       </ol>
     </section>
     <section class="subsection container">
-      <h2 class="subtitle">International Conferences / 国際会議（口頭発表）</h2>
+      <h2 class="subtitle">
+        International Conferences / 国際会議（Full Paper）
+      </h2>
       <ol>
         <li v-for="paper in sortedInternationalConfs" :key="paper.title">
           <paper-list-item :paper="paper" />
@@ -18,9 +20,14 @@
       </ol>
     </section>
     <section class="subsection container">
-      <h2 class="subtitle">International Conferences（Demo/Poster）/ 国際会議（ポスター・デモ等）</h2>
+      <h2 class="subtitle">
+        International Conferences / 国際会議（Demo・Poster）
+      </h2>
       <ol>
-        <li v-for="paper in sortedInternationalConfsPosterDemo" :key="paper.title">
+        <li
+          v-for="paper in sortedInternationalConfsPosterDemo"
+          :key="paper.title"
+        >
           <paper-list-item :paper="paper" />
         </li>
       </ol>
@@ -49,7 +56,7 @@ import publications from "static/publications.json";
 import PaperListItem from "~/components/PaperListItem.vue";
 
 function sortByDate(list) {
-  return list.sort(function(a, b) {
+  return list.sort(function (a, b) {
     if (a.datetime < b.datetime) return 1;
     if (a.datetime > b.datetime) return -1;
     return 0;
@@ -57,46 +64,46 @@ function sortByDate(list) {
 }
 
 export default {
-  data: function() {
+  data: function () {
     return {
       jornals: publications.jornals,
       internationalConfs: [],
       internationalConfsPosterDemo: [],
       domesticConfs: publications.domestic_conferences,
-      thesis: publications.thesis
+      thesis: publications.thesis,
     };
   },
-  created: function() {
+  created: function () {
     this.internationalConfs = publications.international_conferences.filter(
-      function(item) {
+      function (item) {
         return item.presentation_type == "oral";
       }
     );
     this.internationalConfsPosterDemo = publications.international_conferences.filter(
-      function(item) {
+      function (item) {
         return item.presentation_type != "oral";
       }
     );
   },
   computed: {
-    sortedJornals: function() {
+    sortedJornals: function () {
       return sortByDate(this.jornals.slice());
     },
-    sortedInternationalConfs: function() {
+    sortedInternationalConfs: function () {
       return sortByDate(this.internationalConfs.slice());
     },
-    sortedInternationalConfsPosterDemo: function() {
+    sortedInternationalConfsPosterDemo: function () {
       return sortByDate(this.internationalConfsPosterDemo.slice());
     },
-    sortedDomesticConfs: function() {
+    sortedDomesticConfs: function () {
       return sortByDate(this.domesticConfs.slice());
     },
-    sortedThesis: function() {
+    sortedThesis: function () {
       return sortByDate(this.thesis.slice());
-    }
+    },
   },
   components: {
-    PaperListItem
-  }
+    PaperListItem,
+  },
 };
 </script>
