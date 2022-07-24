@@ -1,104 +1,111 @@
 <template>
-  <div class="container">
-    <!--
-    <navbar></navbar>
-    -->
+<div class="wrapper">
+    <prof />
 
-    <article>
-      <div class="columns is-centered">
-        <div class="column is-9">
-          <profile class="column section" />
-        </div>
-      </div>
-      <!--
-      <biography class="section" id="biography" />
-      -->
-      <div class="columns is-centered">
-        <div class="column is-9">
-          <publication class="section" id="publication" />
-          <award class="section" id="award" />
-          <other class="section" id="other" />
-        </div>
-      </div>
-    </article>
+    <div class="main-wrapper">
+        <nav class="main-menu">
+            <a href="">About</a> / 
+            <a href="">Publications</a> /
+            <a href="">Researches</a>
+        </nav>
+        <post>
+            <h2>About</h2>
 
-    <footer class="footer has-background-white">
-      <div class="content has-text-grey-light">Copyright © Tatsuya Amano</div>
-    </footer>
-  </div>
+<!--
+            <h3>Updates</h3>
+            <section>
+                <ul>
+                    <li>
+                        2022年5月: 
+                    </li>
+                    <li>
+                        2022年1月: 大阪大学大学院情報科学研究科 情報ネットワーク学専攻 モバイルコンピューティング講座の助教に着任
+                    </li>
+                </ul>
+            </section>
+-->
+
+            <h3>Researche Topics</h3>
+            <section>
+                <p>Smart City Applications / Digital-Twin / Crowdsensing / Spatial Computing</p>
+                <p>see <a href="./research">Researches</a></p>
+            </section>
+
+            <h3>Experience</h3>
+            <section>
+                <ul>
+                    <li>Jan., 2022 - : Assistant Professor, Graduate School of Information Science and Technology, Osaka Univ.</li>
+                    <li>Apr., 2021 - Dec., 2021: Specially Appointed Assistant Professor, Osaka Univ.</li>
+                    <li>Apr., 2018 - Mar., 2021: Research Fellowshop for Young Scientists (DC1), Japan Society for the Promotion of Science (JSPS)</li>
+                </ul>
+            </section>
+
+            <h3>Education</h3>
+            <section>
+                <ul>
+                    <li>Mar., 2021: Ph.D. in Info. Science., Graduate School of Information Science and Technology, Osaka Univ.</li>
+                    <li>Mar., 2018: M.E., Graduate School of Information Science and Technology, Osaka Univ.</li>
+                    <li>Mar., 2016: B.E., Osaka Univ.</li>
+                </ul>
+            </section>
+
+            <h3>Experience</h3>
+            <section>
+                <ul>
+                    <li>Jan., 2022 - : Assistant Professor, Graduate School of Information Science and Technology, Osaka Univ.</li>
+                    <li>Apr., 2021 - Dec., 2021: Specially Appointed Assistant Professor, Osaka Univ.</li>
+                    <li>Apr., 2018 - Mar., 2021: Research Fellowshop for Young Scientists (DC1), Japan Society for the Promotion of Science (JSPS)</li>
+                </ul>
+            </section>
+       </post>
+    </div>
+
+    <div class="lang">
+        <a href="">English</a> / <a href="">日本語</a>
+    </div>
+
+</div>
 </template>
 
-<script>
-import Navbar from "~/components/Navbar.vue";
-import Research from "~/components/Research.vue";
-import Sidebar from "~/components/Sidebar.vue";
-import Profile from "~/components/Profile.vue";
-import Biography from "~/components/Biography.vue";
-import Publication from "~/components/Publication.vue";
-import Award from "~/components/Award.vue";
-import Other from "~/components/Other.vue";
-
-export default {
-  components: {
-    Biography,
-    Publication,
-    Sidebar,
-    Profile,
-    Award,
-    Navbar,
-    Other,
-  },
-};
-</script>
-
 <style lang="scss">
-$gap: 64px;
-$section-padding: 1rem 1rem;
-$size-3: 1.5rem;
-$block-spacing: 1rem;
-$body-font-size: 0.95rem;
-
-.section-title {
-  border-left: 8px solid #444;
-  padding-left: 8px;
-}
-
-.subsection {
-  margin-bottom: 1.2rem;
-}
-
-.subtitle {
-  text-decoration: underline;
-  margin-bottom: 0.5rem;
-}
-
 body {
-  // font-family: "Roboto", "Noto Sans JP", Arial, sans-serif;
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Droid Sans",
-    "Helvetica Neue", "Yu Gothic", "ヒラギノ角ゴ ProN W3",
-    "Hiragino Kaku Gothic ProN", Arial, メイリオ, Meiryo, sans-serif;
-  font-weight: 500;
-  padding: 16px;
-}
-
-ul {
-  list-style-type: square;
-  padding-left: 1.5em;
-  // list-style-position: inside;
-}
-ol {
-  padding-left: 1.5em;
-  //  list-style-position: inside;
-}
-
-li {
-  // line-height: 1.5rem;
-  margin-bottom: 0.75rem;
-  // padding-left: 1em;
-  //text-indent: -1em;
-}
-
-a {
-  font-weight: bold;
+    background-color: $bg_color;
+    font-family: "Roboto", sans-serif;
+    a:link, a:visited {
+        color: $primary_color;
+    }
 }
 </style>
+
+<style lang="scss" scoped>
+
+.wrapper {
+    margin: 48px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-wrapper {
+    height: 100%;
+    width: 800px;
+}
+
+.main-menu {
+    margin-bottom: 8px;
+}
+
+.lang {
+    position: absolute;
+    right: 8px;
+    top:8px;
+}
+
+</style>
+
+<script>
+export default {
+	
+}
+</script>

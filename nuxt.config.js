@@ -3,6 +3,7 @@ export default {
   /*
   ** Headers of the page
   */
+  components: true,
   head: {
     title: 'Tatsuya Amano | 天野辰哉',
     meta: [
@@ -51,9 +52,11 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: [
-    // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
-  ],
+  modules: ['@nuxtjs/style-resources'],  
+  styleResources: {  
+    css: ['~/static/reset.scss']  ,
+    scss: ['~/static/global.scss']  ,
+  },
   /*
   ** Build configuration
   */
@@ -71,7 +74,9 @@ export default {
     extend(config, ctx) {
     }
   },
+  /*
   router: {
     base: "/~t-amano/"
   }
+  */
 }

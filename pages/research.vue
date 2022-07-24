@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 
 .section-title {
   border-left: 8px solid #444;
