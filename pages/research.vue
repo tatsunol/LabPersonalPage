@@ -12,7 +12,6 @@
 </template>
 
 <style lang="scss" scoped>
-@import "../node_modules/bulma/bulma.sass";
 
 .section-title {
   border-left: 8px solid #444;

@@ -57,7 +57,6 @@ $section-padding: 1rem 1rem;
 $size-3: 1.5rem;
 $block-spacing: 1rem;
 $body-font-size: 0.95rem;
-@import "../node_modules/bulma/bulma.sass";
 
 .section-title {
   border-left: 8px solid #444;
