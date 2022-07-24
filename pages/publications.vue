@@ -9,50 +9,14 @@
             <NuxtLink to="/research">Researches</NuxtLink>
         </nav>
         <post>
-            <h2>Research</h2>
-            <h3>3次元LiDARからの点群を用いた人物トラッキング技術</h3>
+            <h2>Publications</h2>
+
+            <h3></h3>
             <section>
-                <ul>
-                    <li>Under Construction</li>
-                </ul>
+                See <a href="">researchmap</a> for the latest publications.
             </section>
 
-            <h3>3次元LiDARからの人物再識別</h3>
-            <section>
-                <ul>
-                    <li>Under Construction</li>
-                </ul>
-            </section>
-
-            <h3>xRデバイスによるセンシングを想定した</h3>
-            <section>
-                <ul>
-                    <li>Under Construction</li>
-                </ul>
-            </section>
-
-            <h3>3次元点群を用いた遠隔空間共有</h3>  
-            <section>
-                <ul>
-                    <li>Under Construction</li>
-                </ul>
-            </section>
-
-            <h3>VR</h3>
-            <section>
-                <ul>
-                    <li>Under Construction</li>
-                </ul>
-            </section>
-
-            <h3>ゼロエフォートセンシングによる屋内APの3次元位置推定</h3>
-            <section>
-                <ul>
-                    <li>Under Construction</li>
-                </ul>
-            </section>
-
-            <h3>クラウドセンシングと電波伝搬シミュレーションの併用によるWi-Fi電波強度地図生成</h3>
+            <h3>Journal</h3>
             <section>
 
                 <ul>
@@ -60,6 +24,23 @@
                 </ul>
             </section>
 
+            <h3>International Conference</h3>
+            <section>
+
+                <ul>
+                    <li>Under Construction</li>
+                </ul>
+            </section>
+
+            <h3>Domestic Conference</h3>
+            <section>
+
+                <ul>
+                    <li>Under Construction</li>
+                </ul>
+            </section>
+
+            <h2>Awards</h2>
             <section>
                 <ul>
                     <li>Under Construction</li>

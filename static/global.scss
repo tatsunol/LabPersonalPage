@@ -2,3 +2,12 @@
 $bg_color : #FBFBFB;
 $white_color : #FFFFFF;
 $primary_color: #56729D;
+$light_primary_color: #ced6e352;
+
+.hr {
+    width: 100%;
+    height: 1px;
+    background: $light_primary_color;
+}
+
+

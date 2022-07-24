@@ -1,29 +1,29 @@
 <template>
 <div class="wrapper">
+
+    <div class="background">
+            <img  class="hex1" src="~/static/hex.svg" alt="hexagon" />
+            <img  class="hex2" src="~/static/hex.svg" alt="hexagon" />
+            <img  class="hex-s1" src="~/static/hex_s.svg" alt="hexagon" />
+            <img  class="hex-s2" src="~/static/hex_ss.svg" alt="hexagon" />
+            <img  class="hex-sw" src="~/static/hex_sw.svg" alt="hexagon" />
+        <!--
+        <div class="hex2">
+            <img src="~/static/hex.svg" alt="hexagon" />
+        </div>
+        -->
+    </div>
+
     <prof />
 
     <div class="main-wrapper">
         <nav class="main-menu">
-            <a href="">About</a> / 
-            <a href="">Publications</a> /
-            <a href="">Researches</a>
+            <NuxtLink to="/">About</NuxtLink> / 
+            <NuxtLink to="/publications">Publications</NuxtLink> /
+            <NuxtLink to="/research">Researches</NuxtLink>
         </nav>
         <post>
             <h2>About</h2>
-
-<!--
-            <h3>Updates</h3>
-            <section>
-                <ul>
-                    <li>
-                        2022年5月: 
-                    </li>
-                    <li>
-                        2022年1月: 大阪大学大学院情報科学研究科 情報ネットワーク学専攻 モバイルコンピューティング講座の助教に着任
-                    </li>
-                </ul>
-            </section>
--->
 
             <h3>Researche Topics</h3>
             <section>
@@ -49,13 +49,15 @@
                 </ul>
             </section>
 
-            <h3>Experience</h3>
+            <div class="hr"></div>  
+
+            <h3>Recent News and Updates</h3>
             <section>
                 <ul>
-                    <li>Jan., 2022 - : Assistant Professor, Graduate School of Information Science and Technology, Osaka Univ.</li>
-                    <li>Apr., 2021 - Dec., 2021: Specially Appointed Assistant Professor, Osaka Univ.</li>
-                    <li>Apr., 2018 - Mar., 2021: Research Fellowshop for Young Scientists (DC1), Japan Society for the Promotion of Science (JSPS)</li>
+                    <li>Jul. 2022: <a href="https://dicomo.org/">DICOMO2022シンポジウム</a>で2件の発表（共著）</li>
+                    <li>Jul. 2022: H. Rizk, T. Amano, H. Yamaguchi and M. Youssef, "Cross-Subject Activity Detection for COVID-19 Infection Avoidance Based on Automatically Annotated IMU Data," in IEEE Sensors Journal, vol. 22, no. 13, pp. 13125-13135, 1 July1, 2022, doi: 10.1109/JSEN.2022.3176291. </li>
                 </ul>
+                <p>see <a href="./publication">Publications</a></p>
             </section>
        </post>
     </div>
@@ -68,6 +70,59 @@
 </template>
 
 <style lang="scss">
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hex1 {
+    position:absolute;
+    top: -400px;
+    left: -650px;
+    width: 1100px;
+    height: 1100px;
+}
+
+.hex-sw {
+    position:absolute;
+    top: 20px;
+    left: 160px;
+    width: 484px;
+    height: 484px;
+}
+
+.hex2 {
+    position:absolute;
+    bottom: -100px;
+    left: 380px;
+    width: 316px;
+    height: 316px;
+}
+
+.hex-s1 {
+    position:absolute;
+    top: 60px;
+    right: 160px;
+    width: 111px;
+    height: 111px;
+}
+
+.hex-s2 {
+    position:absolute;
+    top: 32px;
+    right: 252px;
+    width: 69px;
+    height: 69px;
+}
+
+
+
+
 body {
     background-color: $bg_color;
     font-family: "Roboto", sans-serif;
@@ -78,7 +133,6 @@ body {
 </style>
 
 <style lang="scss" scoped>
-
 .wrapper {
     margin: 48px 0;
     display: flex;

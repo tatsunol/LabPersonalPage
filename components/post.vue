@@ -1,9 +1,11 @@
 <template>
 <div>
     <main class="main">
-        <article>
-            <slot></slot>
-        </article>
+        <div class="article-wrapper">
+            <article>
+                <slot></slot>
+            </article>
+        </div>
     </main>
 </div>  
 </template>
@@ -21,8 +23,11 @@ $header-gray: #393939;
 }
 
 .main {
-    article {
+    .article-wrapper {
         padding: $padding
+    }
+    article {
+        padding-left: 6px;
     }
 
     h2 {
@@ -32,13 +37,14 @@ $header-gray: #393939;
         margin: 16px 0 0 0;
         display: inline-block;
         padding: 6px 32px;
-        margin-left: -$padding;
+        margin-left: -$padding - 6px;
         background: $header-gray;
         border-left: 12px solid $primary_color;
     }
 
     ul {
         padding-left: 16px;
+        line-height: 1.4;
     }
 
     p {
